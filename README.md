@@ -9,14 +9,14 @@ Las variables son:
 
 1) Alcohol 
 2) Malic acid: Acido málico
-3) Ash 
-4) Alcalinity of ash 
-5) Magnesium 
-6) Total phenols 
-7) Flavanoids 
-8) Nonflavanoid phenols 
-9) Proanthocyanins 
-10)Color intensity 
-11)Hue 
-12)OD280/OD315 of diluted wines 
-13)Proline 
+3) Ash: Ceniza 
+4) Alcalinity of ash: Alcalinidad de la ceniza
+5) Magnesium: Magnesio
+6) Total phenols: Total de fenoles
+7) Flavanoids: Flavonoides
+8) Nonflavanoid phenols: Fenoles no flavonoides 
+9) Proanthocyanins: Proantocianidina
+10) Color intensity: Intensidad del color 
+11) Hue: Matiz 
+12) OD280/OD315 of diluted wines: OD280/OD315 diluido en el vino
+13) Proline: Prolina
