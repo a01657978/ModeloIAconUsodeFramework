@@ -18,3 +18,5 @@ Las variables son:
 11) Hue: Matiz 
 12) OD280/OD315 of diluted wines: OD280/OD315 diluido en el vino
 13) Proline: Prolina
+
+Utilizando regresion logística con 50, 100 y 10000 iteraciones. Se puede ver que hay una mejora, sin embargo, no es tan significativa. 
