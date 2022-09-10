@@ -19,4 +19,4 @@ Las variables son:
 12) OD280/OD315 of diluted wines: OD280/OD315 diluido en el vino
 13) Proline: Prolina
 
-Utilizando regresion logística con 50, 100 y 10000 iteraciones. Se puede ver que hay una mejora, sin embargo, no es tan significativa. 
+La regresion logística fue variando el numero de iteraciones utilizando 5, 15, 50, 1000 y 10000 iteraciones. Al utilizar la metrica de precision, se puede ver que hay una mejora, sin embargo, no es tan significativa despues de las 50 iteraciones. 
