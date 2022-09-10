@@ -37,21 +37,35 @@ from sklearn.linear_model import LogisticRegression
 import warnings
 warnings.filterwarnings("ignore")
 
+# Probamos con 5 iteraciones
+
+LogReg = LogisticRegression(max_iter = 5)
+LogReg.fit(X_train, y_train)
+y_pred = LogReg.predict(X_test)
+print('Score', LogReg.score(X_test, y_test) * 100, '% con 5 iteraciones')
+print()
+# Probamos con 15 iteraciones
+
+LogReg = LogisticRegression(max_iter = 15)
+LogReg.fit(X_train, y_train)
+y_pred = LogReg.predict(X_test)
+print('Score', LogReg.score(X_test, y_test) * 100, '% con 15 iteraciones')
+
 # Probamos con 50 iteraciones
 
 LogReg = LogisticRegression(max_iter = 50)
 LogReg.fit(X_train, y_train)
 y_pred = LogReg.predict(X_test)
-print('Score', LogReg.score(X_test, y_test) * 100, '%')
+print('Score', LogReg.score(X_test, y_test) * 100, '% con 50 iteraciones')
 
 # Probamos con 1000 iteraciones
 LogReg = LogisticRegression(max_iter = 1000)
 LogReg.fit(X_train, y_train)
 y_pred = LogReg.predict(X_test)
-print('Score', LogReg.score(X_test, y_test) * 100, '%')
+print('Score', LogReg.score(X_test, y_test) * 100, '% con 1000 iteraciones')
 
 # Probamos con 10000 iteraciones
 LogReg = LogisticRegression(max_iter = 10000)
 LogReg.fit(X_train, y_train)
 y_pred = LogReg.predict(X_test)
-print('Score', LogReg.score(X_test, y_test) * 100, '%')
+print('Score', LogReg.score(X_test, y_test) * 100, '% con 10000 iteraciones')
